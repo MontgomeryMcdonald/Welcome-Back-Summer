@@ -127,3 +127,29 @@ textarea, input, button{
 button:hover{
     background-color: #20F2FF;
 }
+
+@media only screen and (max-width: 800px){
+    html{
+        width: 100vw;
+    }
+    nav{
+        width: 100vw;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+    .carousel{
+        width: 100%;
+        padding: .5em;
+    }
+    .card{
+        width: 60vw;
+        height: auto;
+    }
+    .contacts-page{
+        height: 70vh;
+    }
+    input{
+        font-size: x-large;
+    }
+}
